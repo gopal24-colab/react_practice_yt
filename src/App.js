@@ -1,11 +1,9 @@
-// import Counter from "./components/Counter";
-// import Greet from "./components/Greet";
-// import Welcome from "./components/Welcome";
-import ParentComponent from "./components/PrentComponent";
+// import LifecycleA from "./LifecycleA";
+import ParentComp from "./components/ParentComp";
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <ParentComp />
     </div>
   );
 }
