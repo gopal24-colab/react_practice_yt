@@ -32,11 +32,6 @@ const PostsListFun = () => {
             );
           })
         : error}
-      {/* {posts.map((item, index) => (
-        <div key={index}>
-          <p>{item.title}</p>
-        </div>
-      ))} */}
     </div>
   );
 };
