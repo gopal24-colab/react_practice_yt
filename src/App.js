@@ -1,10 +1,10 @@
 import React from "react";
-import HookUseEffect from "./components/HookUseEffect";
+import DataFetchOnButtonClick from "./components/DataFetchOnButtonClick";
 
 const App = () => {
   return (
     <div>
-      <HookUseEffect />
+      <DataFetchOnButtonClick />
     </div>
   );
 };
