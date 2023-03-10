@@ -1,11 +1,12 @@
-import ToastNotification from "./toast/ToastNotification";
+import React from "react";
+import HookUseEffect from "./components/HookUseEffect";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <ToastNotification />
+    <div>
+      <HookUseEffect />
     </div>
   );
-}
+};
 
 export default App;
