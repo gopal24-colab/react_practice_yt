@@ -1,10 +1,13 @@
 import React from "react";
-import DataFetchOnButtonClick from "./components/DataFetchOnButtonClick";
+import DataFetchingWithUseReducer from "./components/DataFetchingWithUseReducer";
+
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 
 const App = () => {
   return (
     <div>
-      <DataFetchOnButtonClick />
+      <DataFetchingWithUseReducer />
     </div>
   );
 };
