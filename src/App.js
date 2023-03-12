@@ -1,5 +1,5 @@
 import React from "react";
-import DataFetchingWithUseReducer from "./components/DataFetchingWithUseReducer";
+import FormHandelUsingCustomHook from "./components/custom hooks/FormHandelUsingCustomHook";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -7,7 +7,7 @@ export const ChannelContext = React.createContext();
 const App = () => {
   return (
     <div>
-      <DataFetchingWithUseReducer />
+      <FormHandelUsingCustomHook />
     </div>
   );
 };
